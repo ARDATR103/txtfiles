@@ -1,0 +1,49 @@
+GÝRÝÞ HESABI OLUÞTURMA
+
+
+
+CREATE LOGIN (LOGINADI) WITHPASSWORD = (ÞÝFRE)
+
+CREATE LOGIN ALÝ WÝTHPASSWORD = "FA25"
+
+----------------------------------
+
+KULLANICI OLUÞTURMA
+
+CREATE USER (USERADI) FROM LOGÝN (LOGÝNNAME)
+
+CREATE USER ALÝ FROM LOGÝN ALÝ
+
+--------------------------
+
+YETKÝ VERME KOMUTU GRANT
+
+GRANT (VERMEK ÝSTEDÝÐÝN YETKÝ) ON (YETKÝ VERCEÐÝN TABLO) TO (YETKÝ VERMEK ÝSTEDÝÐÝN KULLANICI)
+
+------------------------------------------
+
+YETKÝ KALDIRMA KOMUTU DENY
+
+DENY (KALDIRCAÐIN YETKÝ) ON (TABLO) TO (KULLANICI)
+------------------------------------------------------
+
+TÜM YETKÝ KALDIRMA 
+
+REVOKE ALL ON (TABLOADI) TO (KULLANICI)
+----------------------------------------
+
+KULLANICI SÝLME
+
+DROP USER (KULLANICI)
+
+---------------
+
+INNERJOÝN
+
+CREAT TABLE
+
+DEÐÝÞKEN TANIMLAMA  DECLARE 
+
+DEÐÝÞKENE DEÐER ATAMA  SET
+
+DÖNGÜLER 
